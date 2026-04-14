@@ -1,0 +1,14 @@
+{
+  "name": "dq-vertex-proxy",
+  "version": "1.0.0",
+  "description": "Proxy para Vertex AI Gemini - DQ Studio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "google-auth-library": "^9.4.1"
+  }
+}

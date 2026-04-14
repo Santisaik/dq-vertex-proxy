@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: dq-vertex-proxy
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: GCP_PROJECT_ID
+        sync: false
+      - key: GCP_LOCATION
+        value: europe-west1
+      - key: GCP_SERVICE_ACCOUNT_KEY
+        sync: false
