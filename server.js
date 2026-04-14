@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const PROJECT_ID = process.env.GCP_PROJECT_ID;
 const LOCATION = process.env.GCP_LOCATION || 'europe-west1';
 const MODELS = [
-  'gemini-3.1-flash-image-preview',
+  'gemini-3-pro-image-preview',
 ];
 
 // Auth - se configura automáticamente con GOOGLE_APPLICATION_CREDENTIALS o con la variable de entorno
